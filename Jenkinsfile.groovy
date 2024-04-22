@@ -78,12 +78,12 @@ pipeline {
   stages {
     stage('build'){
       steps {
-        sh 'docker build -t iRajapaksha/4130-Rapaksha .'
+        sh 'docker build -t irajapaksha/4130-rapaksha .'
       }
     }
     stage('run'){
       steps{
-        sh 'docker run -d -p 5000:3000 iRajapaksha/4130-Rajapaksha'
+        sh 'docker run -d -p 5000:3000 irajapaksha/4130-rajapaksha'
       }
     }
     stage('final'){
