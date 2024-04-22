@@ -78,7 +78,7 @@ pipeline {
   stages {
     stage('build'){
       steps {
-        sh 'docker build -t irajapaksha/4130-rapaksha .'
+        sh 'docker build -t irajapaksha/4130-rajapaksha .'
       }
     }
     stage('run'){
